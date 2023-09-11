@@ -1,0 +1,20 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: font-family: 'Noto Sans Vithkuqi', sans-serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.gradient{
+    background: rgb(253,222,222);
+    background: linear-gradient(90deg, rgba(253,222,222,1) 33%, rgba(233,95,95,1) 100%);   
+}
+
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: white;
+}
