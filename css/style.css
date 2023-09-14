@@ -7,6 +7,15 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;;
 }
+.apple{
+    width: 50%;
+}
+.android{
+    width: 60%;
+}
+.navbar-brand{
+
+}
 
 .gradient{
     background: rgb(253,222,222);
@@ -17,4 +26,22 @@ body{
     margin-top: 4rem;
     font-size: 1.25rem;
     color: white;
+}
+.feature {
+    color: white;
+}
+
+.feature ul{
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.homescreen{
+    width: 30%;
+    height: 30%;
+    padding-top: 2%;
+}
+
+.btn btn-primary{
+    background-color: #7FCEC3;
 }
