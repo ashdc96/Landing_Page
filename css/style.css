@@ -1,3 +1,8 @@
+navbar{
+    display: block; /* Makes the image a block element */
+    margin-left: auto; /* Auto left margin */
+    margin-right: auto; /* Auto right margin */
+      }  
 html,
 body{
     height: 100%;
@@ -7,14 +12,19 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;;
 }
+.navbar{
+    background-color: #FFF9E2;
+    display: block; /* Makes the image a block element */
+    margin-left: auto; /* Auto left margin */
+    margin-right: auto;
+}
+    
+
 .apple{
     width: 50%;
 }
 .android{
     width: 60%;
-}
-.navbar-brand{
-
 }
 
 .gradient{
