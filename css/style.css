@@ -1,8 +1,3 @@
-navbar{
-    display: block; /* Makes the image a block element */
-    margin-left: auto; /* Auto left margin */
-    margin-right: auto; /* Auto right margin */
-      }  
 html,
 body{
     height: 100%;
@@ -12,13 +7,22 @@ body{
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;;
 }
+
+.container-fluid nav{
+    display: flex;
+    justify-content: center;
+} 
+
 .navbar{
     background-color: #FFF9E2;
-    display: block; /* Makes the image a block element */
-    margin-left: auto; /* Auto left margin */
-    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
-    
+.navbar img{
+    text-align: center;
+}
+
 .row{
     display:flex;
 }
@@ -61,10 +65,11 @@ body{
 
 p{
     padding-left: 5%;
+    margin-left: 10%
 }
 
 h2{
-    padding-top: 5%;
+    padding-top: 10%;
     padding-left: 6%;
     margin-left: 25%;
 }
